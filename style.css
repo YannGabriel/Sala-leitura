@@ -51,6 +51,7 @@ h1{
 }
 
 body{
+    height: 98vh;
     background-color: #ffcece;
     max-width: 1200px;
     min-width: 320px;
