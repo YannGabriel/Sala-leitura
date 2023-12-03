@@ -46,13 +46,13 @@ h1{
    padding-top: 54px;
    padding-bottom: 15px;
    margin: 40px 0px 0px 0px;
-   color: white;
+   color: #023047;
    text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.674);
 }
 
 body{
     height: 98vh;
-    background-color: #ffcece;
+    background-color: #8ecae6;
     max-width: 1200px;
     min-width: 320px;
     margin: auto;
@@ -139,7 +139,7 @@ p{
     text-align: center;
     font-size: 24px;
     font-family: 'Xs';
-    color: #a62d52;
+    color: #fb8500;
 }
 
 nav a{
@@ -154,7 +154,7 @@ nav a{
 }
 
 nav a:hover{
-    color: #a3386c;
+    color: #ffb703;
     transition: all .4s;
     transform: scale(1.1) translateY(-5px);
     background-color: transparent;
@@ -162,7 +162,7 @@ nav a:hover{
 
 footer{
 
-    background-color: #ffa7b3;
+    background-color: #219ebc;
     width: 100%;
     border-radius: 10px;
 }
