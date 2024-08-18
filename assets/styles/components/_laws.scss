@@ -5,8 +5,20 @@
   @media (width < 756px){
     padding-top: 6rem;
   }
+  @media(width >= 1200px){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    #books, #times{
+      height: 90%;
+      padding-right: 2rem;
+      border-right: 1px solid $white-color;
+    }
+  }
   background-color: $light-blue;
   .section-atention{
+    @media (width >= 1200px){
+      border-bottom: none;
+    }
     padding-top: 4rem;
     padding-bottom: 3rem;
     width: 90%;

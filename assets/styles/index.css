@@ -78,6 +78,11 @@ menu.mobileMenu ul#menuBar li.mobile-item a.page-target {
   padding-bottom: 4rem;
   position: relative;
 }
+@media (width >= 1200px) {
+  .first-content {
+    height: 60vh;
+  }
+}
 .first-content h1.title-h1 {
   color: #00b4d8;
   font-size: 3rem;
@@ -86,6 +91,11 @@ menu.mobileMenu ul#menuBar li.mobile-item a.page-target {
   text-align: center;
   width: 90%;
   margin: auto;
+}
+@media (width >= 1200px) {
+  .first-content h1.title-h1 {
+    padding-top: 10rem;
+  }
 }
 .first-content p.introduction {
   font-size: 1.2rem;
@@ -108,12 +118,28 @@ menu.mobileMenu ul#menuBar li.mobile-item a.page-target {
     padding-top: 6rem;
   }
 }
+@media (width >= 1200px) {
+  .laws {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .laws #books, .laws #times {
+    height: 90%;
+    padding-right: 2rem;
+    border-right: 1px solid #fbfbf8;
+  }
+}
 .laws .section-atention {
   padding-top: 4rem;
   padding-bottom: 3rem;
   width: 90%;
   margin: auto;
   border-bottom: 1px solid white;
+}
+@media (width >= 1200px) {
+  .laws .section-atention {
+    border-bottom: none;
+  }
 }
 .laws .icon-image {
   display: flex;
@@ -134,6 +160,31 @@ menu.mobileMenu ul#menuBar li.mobile-item a.page-target {
   font-size: 1.2rem;
   text-align: center;
   color: #fbfbf8;
+}
+
+@media (width >= 1200px) {
+  .blog-content {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog-content img.blog-image {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+.blog-content .blog-image {
+  display: none;
+}
+.blog-content .blog .title-h2, .blog-content .blog .about-blog {
+  margin: 0;
+  width: 90%;
+  text-align: start;
+}
+.blog-content .blog .blog-target {
+  margin: 0;
 }
 
 .blog {
