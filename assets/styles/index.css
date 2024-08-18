@@ -188,6 +188,10 @@ menu.mobileMenu ul#menuBar li.mobile-item a.page-target {
   display: none;
 }
 
+a.blog-way {
+  text-decoration: none;
+}
+
 .blog {
   padding-top: 2.2rem;
   padding-bottom: 6rem;
