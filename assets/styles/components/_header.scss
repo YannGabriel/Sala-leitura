@@ -1,0 +1,43 @@
+
+  @import './colors';
+
+  //Config default for all displays
+  header.container-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $dark-blue;
+    height: 5rem;
+    ul.itens-search{
+      //config for PC
+      @media(width >= 1200px){
+        display: flex;
+      }
+      li.itens{
+        a.page-target{
+          text-decoration: none;
+          color: $white-color;
+        }
+        //Display none only for mobile and tablets
+        display: none;
+        //nav-bar for PC
+        @media(width >= 1200px){
+          padding-top: 0.5rem;
+          padding-right: 2.3rem;
+          display: block;
+          font-size: $text-size;
+          font-weight: $text-weight;
+        }
+      }
+      //only for mobile and Tablets
+      .menu{
+        margin-top: 1rem;
+        width: 80%;
+        margin-right: 0.3rem;
+        @media(width >= 1200px){
+          display: none;
+        }
+      }
+    }
+  }
+

@@ -1,0 +1,20 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  scroll-behavior: smooth
+}
+
+@import './components/_colors.sass';
+@import './components/_fonts.sass';
+@import './components/sizes';
+@import './components/_header.scss';
+@import './components/menu-mobile';
+@import './components/carroussel';
+@import './components/first-content';
+@import './components/laws';
+@import './components/blog';

@@ -1,0 +1,30 @@
+
+menu.mobileMenu{
+  ul#menuBar{
+    padding-bottom: 12rem;
+    position: absolute;
+    z-index: 2;
+    left: 40%;
+    width: 60%;
+    float: right;
+    background-color: $dark-blue;
+    list-style: none;
+    text-align: center;
+    li.mobile-item{
+      //Personal Styles
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      //Directed Styles
+      font-family: $text-font;
+      font-size: $text-size;
+      font-weight: $text-weight;
+      padding: 1.2rem;
+      border-bottom: 0.12rem solid $white-color;
+      a.page-target{
+        text-decoration: none;
+        color: $white-color;
+      }
+    }
+  }
+}

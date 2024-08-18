@@ -1,0 +1,38 @@
+
+
+.laws{
+  //padding-for mobile
+  @media (width < 756px){
+    padding-top: 6rem;
+  }
+  background-color: $light-blue;
+  .section-atention{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid white;
+  }
+
+  .icon-image{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80px;
+    margin-bottom: 1rem;
+  }
+  h2.title-h2{
+    color: $dark-blue;
+    font-family: $title-font;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0.8rem;
+    font-size: $title-size;
+  }
+  p.about{
+    font-size: $text-size;
+    text-align: center;
+    color: $white-color;
+  }
+
+}

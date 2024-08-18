@@ -1,0 +1,40 @@
+
+.blog{
+  padding-top: 2.2rem;
+  padding-bottom: 6rem;
+  h2.title-h2{
+    color: $title-color;
+    font-size: $title-size;
+    font-family: $title-font;
+    font-weight: $title-weight;
+    text-align: center;
+  }
+  p.about-blog{
+    padding-top: 1.3rem;
+    padding-bottom: 1.5rem;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-size: $text-size;
+    font-family: $text-font;
+    font-weight: $text-weight;
+    span.details-light{
+      color: $light-blue;
+      font-weight: $title-weight;
+    }
+  }
+
+  button.blog-target{
+    background-color: $dark-blue;
+    color: $white-color;
+    font-family: $title-font;
+    font-weight: $title-weight;
+    font-size: $text-size;
+    width: 300px;
+    padding: 1.15rem;
+    border-radius: 0.9rem;  
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+}
