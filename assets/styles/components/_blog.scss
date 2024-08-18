@@ -9,21 +9,23 @@
       justify-content: center;
       margin: auto;
     }
-  }
-  .blog-image{
-    display: none;
-  }
-  .blog{
-    .title-h2, .about-blog{
-      margin: 0;
-      width: 90%;
-      text-align: start;
-    }
-    .blog-target{
-      margin: 0;
+    .blog{
+      .title-h2, .about-blog{
+        margin: 0;
+        width: 90%;
+        text-align: start;
+      }
+      .blog-target{
+        margin: 0;
+      }
     }
   }
 }
+
+.blog-image{
+  display: none;
+}
+
 .blog{
   padding-top: 2.2rem;
   padding-bottom: 6rem;

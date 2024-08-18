@@ -174,17 +174,18 @@ menu.mobileMenu ul#menuBar li.mobile-item a.page-target {
     justify-content: center;
     margin: auto;
   }
+  .blog-content .blog .title-h2, .blog-content .blog .about-blog {
+    margin: 0;
+    width: 90%;
+    text-align: start;
+  }
+  .blog-content .blog .blog-target {
+    margin: 0;
+  }
 }
-.blog-content .blog-image {
+
+.blog-image {
   display: none;
-}
-.blog-content .blog .title-h2, .blog-content .blog .about-blog {
-  margin: 0;
-  width: 90%;
-  text-align: start;
-}
-.blog-content .blog .blog-target {
-  margin: 0;
 }
 
 .blog {
