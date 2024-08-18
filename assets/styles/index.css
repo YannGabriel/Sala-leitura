@@ -229,4 +229,25 @@ a.blog-way {
   margin: auto;
   display: flex;
   justify-content: center;
+}
+
+footer {
+  background-color: #00b4d8;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+footer .about-programer .atr-direct {
+  color: #03045E;
+  font-family: "Poppins", system-ui;
+}
+footer .about-programer .dev-name {
+  color: #fbfbf8;
+  font-size: 2.4rem;
+  font-family: "Poppins", system-ui;
+  font-weight: bold;
+}
+footer .about-programer .contact a {
+  text-decoration: none;
+  color: #fbfbf8;
+  font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=index.css.map */
