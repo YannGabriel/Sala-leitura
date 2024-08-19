@@ -11,7 +11,7 @@ html, body {
 
 header.container-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   background-color: #03045E;
   height: 5rem;
@@ -78,11 +78,6 @@ menu.mobileMenu ul#menuBar li.mobile-item a.page-target {
   padding-bottom: 4rem;
   position: relative;
 }
-@media (width >= 1200px) {
-  .first-content {
-    height: 60vh;
-  }
-}
 .first-content h1.title-h1 {
   color: #00b4d8;
   font-size: 3rem;
@@ -94,7 +89,7 @@ menu.mobileMenu ul#menuBar li.mobile-item a.page-target {
 }
 @media (width >= 1200px) {
   .first-content h1.title-h1 {
-    padding-top: 10rem;
+    padding-top: 4rem;
   }
 }
 .first-content p.introduction {
